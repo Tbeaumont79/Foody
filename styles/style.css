@@ -1,0 +1,130 @@
+:root {
+	--header-color: #e2e4eb;
+	--green-color: #3cb823;
+	--red-color: #f65005;
+
+	--font-xs: 12px;
+	--font-sm: 14px;
+	--font-md: 16px;
+	--font-lg: 18px;
+	--font-xl: 20px;
+	--font-2xl: 24px;
+	--font-4xl: 32px;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	position: relative;
+	background-color: #e2e4eb;
+	width: 100%;
+	max-height: 80vh;
+	z-index: 1;
+}
+.carousel {
+	position: absolute;
+	width: 100%;
+	top: 160px;
+	object-fit: cover;
+	z-index: -1;
+}
+.menu-hiden {
+	display: none;
+}
+header > nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+header > nav > ul > li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+header > nav > ul > li > a > img {
+	width: 18px;
+	height: 18px;
+	rotate: 270deg;
+}
+header > nav > ul > li > a {
+	text-decoration: none;
+	color: #000;
+}
+.hero-section {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2rem;
+	padding: 4rem 1rem;
+	min-height: 30%;
+}
+.hero-section > img {
+	width: 25px;
+	height: 25px;
+	background-color: var(--green-color);
+	opacity: 0.5;
+	border-radius: 100%;
+}
+.hero-section-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 1.5rem;
+	max-width: 60%;
+}
+.hero-section-content > h1 {
+	font-size: var(--font-2xl);
+	background: rgba(255, 255, 255, 0.7);
+	font-family: Arial, Helvetica, sans-serif;
+}
+.hero-section-content > .cta {
+	display: flex;
+	gap: 1rem;
+	justify-content: flex-start;
+}
+
+.hero-section-content > .cta > a {
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	color: #fff;
+	font-size: var(--font-xs);
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border-radius: 20px;
+}
+.hero-section-content > .cta > a:first-child {
+	background-color: var(--green-color);
+}
+.hero-section-content > .cta > a:last-child {
+	background-color: var(--red-color);
+}
+
+nav > .icons-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+nav > .icons-bar > .icon > button {
+	border: none;
+	background-color: transparent;
+}
+nav > .icons-bar > .icon {
+	background-color: #fff;
+	border-radius: 100%;
+	padding: 0.5rem;
+}
+nav > .icons-bar > .icon > img,
+nav > .icons-bar > .icon > button > img {
+	width: 12px;
+	height: 12px;
+}
