@@ -371,3 +371,50 @@ nav > .icons-bar > .icon > button > img {
 .btn-visit-us {
 	margin-top: 2rem;
 }
+.testimonials {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.testimonials > h2 {
+	font-size: var(--font-xl);
+}
+.testimonials > p {
+	font-size: var(--font-xs);
+}
+
+.testimonials-card-content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-top: 1rem;
+	padding: 1rem;
+	gap: 1rem;
+}
+.active-testimonials-card {
+	background-color: var(--green-color);
+}
+.testimonials-card-content > p {
+	font-size: var(--font-xs);
+}
+.testimonials-card-author {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+.testimonials-card-author > img {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+}
+.testimonials-card-author-content > p {
+	font-size: var(--font-xs);
+}
+.testimonials-card-author-content > p:last-child {
+	font-size: var(--font-xs);
+}
