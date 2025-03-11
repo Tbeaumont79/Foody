@@ -278,6 +278,7 @@ nav > .icons-bar > .icon > button > img {
 	text-align: center;
 }
 .products-card {
+	position: relative;
 	margin-top: 1rem;
 	padding: 1rem;
 	display: flex;
@@ -286,10 +287,20 @@ nav > .icons-bar > .icon > button > img {
 	justify-content: center;
 	gap: 1rem;
 }
+.tag {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background-color: var(--red-color);
+	z-index: 1;
+	padding: 0.5rem 1rem;
+	margin: 1rem;
+	color: #fff;
+}
 .products-card > img {
-	width: 80%;
-	height: 80%;
 	object-fit: cover;
+	max-width: 95%;
+	max-height: 80%;
 }
 .products-info > h4 {
 	text-align: center;
