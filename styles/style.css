@@ -459,6 +459,7 @@ nav > .icons-bar > .icon > button > img {
 }
 .blog-card-content > h3 {
 	padding-top: 1rem;
+	padding-left: 0.5rem;
 	text-align: left;
 	font-size: var(--font-lg);
 }
@@ -472,6 +473,8 @@ nav > .icons-bar > .icon > button > img {
 	text-align: center;
 	display: flex;
 	gap: 0.5rem;
+	padding-left: 0.5rem;
+
 	padding-top: 1rem;
 	align-items: center;
 	justify-content: center;
