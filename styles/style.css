@@ -399,6 +399,22 @@ nav > .icons-bar > .icon > button > img {
 .active-testimonials-card {
 	background-color: var(--green-color);
 }
+.quote {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -30px;
+	rotate: 180deg;
+	left: 0;
+}
+.active-testimonials-card > .testimonials-card-content > p {
+	color: #fff;
+}
+.active-testimonials-card
+	> .testimonials-card-content
+	> .testimonials-card-author {
+	color: #fff;
+}
 .testimonials-card-content > p {
 	font-size: var(--font-xs);
 }
