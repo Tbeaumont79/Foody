@@ -488,3 +488,44 @@ nav > .icons-bar > .icon > button > img {
 	width: 16px;
 	height: 16px;
 }
+footer {
+	background-color: #111111;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.footer-content p {
+	color: #fff;
+}
+.footer-content-logo p {
+	font-size: var(--font-2xl);
+	color: var(--green-color);
+}
+.footer-content-logo i {
+	color: var(--red-color);
+}
+.footer-content-links {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+}
+
+.footer-content-links ul {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+}
+.footer-content-links > ul > li {
+	list-style: none;
+	border: 1px solid #fff;
+	border-radius: 100%;
+}
+
+.footer-content-links > ul > li > a > img {
+	width: 12px;
+	height: 12px;
+}
