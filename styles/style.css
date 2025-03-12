@@ -434,3 +434,40 @@ nav > .icons-bar > .icon > button > img {
 .testimonials-card-author-content > p:last-child {
 	font-size: var(--font-xs);
 }
+.blog {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 2rem;
+}
+.blog-content h2 {
+	font-size: var(--font-xl);
+}
+.blog-content p {
+	padding-top: 1rem;
+	font-size: var(--font-xs);
+}
+.blog-card > img {
+	width: 95%;
+}
+.blog-card-content > h3 {
+	padding-top: 1rem;
+	font-size: var(--font-lg);
+}
+.blog-card-author {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+	padding: 1rem;
+}
+.blog-card-author > p {
+	font-size: var(--font-xs);
+}
+.blog-card-author > p > img {
+	width: 16px;
+	height: 16px;
+}
