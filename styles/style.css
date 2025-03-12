@@ -335,6 +335,10 @@ nav > .icons-bar > .icon > button > img {
 .products-actions button {
 	background-color: transparent;
 	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
 }
 .visit-us {
 	position: relative;
