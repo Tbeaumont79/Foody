@@ -377,7 +377,7 @@ nav > .icons-bar > .icon > button > img {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 1rem;
+	gap: 2rem;
 }
 .testimonials > h2 {
 	font-size: var(--font-xl);
