@@ -443,6 +443,10 @@ nav > .icons-bar > .icon > button > img {
 	text-align: center;
 	gap: 2rem;
 }
+.blog-content {
+	padding: 1rem;
+	width: 90%;
+}
 .blog-content h2 {
 	font-size: var(--font-xl);
 }
@@ -455,6 +459,7 @@ nav > .icons-bar > .icon > button > img {
 }
 .blog-card-content > h3 {
 	padding-top: 1rem;
+	text-align: left;
 	font-size: var(--font-lg);
 }
 .blog-card-author {
@@ -462,10 +467,10 @@ nav > .icons-bar > .icon > button > img {
 	align-items: center;
 	justify-content: flex-start;
 	gap: 1rem;
-	padding: 1rem;
 }
 .blog-card-author > p {
 	font-size: var(--font-xs);
+	padding-top: 1rem;
 }
 .blog-card-author > p > img {
 	width: 16px;
