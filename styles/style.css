@@ -469,8 +469,13 @@ nav > .icons-bar > .icon > button > img {
 	gap: 1rem;
 }
 .blog-card-author > p {
-	font-size: var(--font-xs);
+	text-align: center;
+	display: flex;
+	gap: 0.5rem;
 	padding-top: 1rem;
+	align-items: center;
+	justify-content: center;
+	font-size: var(--font-xs);
 }
 .blog-card-author > p > img {
 	width: 16px;
