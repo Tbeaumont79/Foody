@@ -204,7 +204,6 @@ nav > .menu-and-icons-bar > .icons-bar > .icon > button > img {
 
 .divider {
 	margin-top: 1rem;
-
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -696,6 +695,7 @@ footer {
 	}
 	.about-content {
 		gap: 2rem;
+		max-width: 600px;
 	}
 	.about-content > h2 {
 		font-size: var(--font-4xl);
@@ -713,5 +713,13 @@ footer {
 	.about-content > button {
 		font-size: var(--font-md);
 		padding: 1rem 1.5rem;
+	}
+	.functionality-card {
+		padding: 4rem;
+	}
+	.functionality-all-card {
+		display: flex;
+		padding: 2rem;
+		gap: 2rem;
 	}
 }
