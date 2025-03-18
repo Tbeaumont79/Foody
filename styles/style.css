@@ -627,7 +627,7 @@ footer {
 	font-size: var(--font-xs);
 	color: #fff;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 	header {
 		max-height: 80%;
 	}
@@ -721,5 +721,21 @@ footer {
 		display: flex;
 		padding: 2rem;
 		gap: 2rem;
+	}
+	.product-all-cards {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.products {
+		position: relative;
+	}
+	.product-all-cards {
+		margin-bottom: 2rem;
+	}
+	.product-all-cards > .btn-green {
+		max-height: 40px;
+		position: absolute;
+		bottom: 0;
 	}
 }
