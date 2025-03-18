@@ -645,7 +645,6 @@ footer {
 		display: flex;
 		align-items: center;
 		gap: 1rem;
-
 	}
 	.menu-hiden > li {
 		list-style: none;
@@ -653,7 +652,7 @@ footer {
 	.menu-hiden > li > a {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem
+		gap: 0.5rem;
 	}
 	nav > .menu-and-icons-bar {
 		display: flex;
@@ -684,5 +683,35 @@ footer {
 	.hero-section-content > .cta > a {
 		font-size: var(--font-sm);
 		padding: 1rem 2rem;
+	}
+	.about {
+		margin-top: 25rem;
+		flex-direction: row;
+		gap: 2rem;
+		padding: 2rem;
+	}
+	.about-image {
+		width: 40%;
+		height: 40%;
+	}
+	.about-content {
+		gap: 2rem;
+	}
+	.about-content > h2 {
+		font-size: var(--font-4xl);
+	}
+	.about-content > p {
+		font-size: var(--font-md);
+	}
+	.about-content > ul > li > p {
+		font-size: var(--font-md);
+	}
+	.about-content > ul > li > img {
+		width: 20px;
+		height: 20px;
+	}
+	.about-content > button {
+		font-size: var(--font-md);
+		padding: 1rem 1.5rem;
 	}
 }
