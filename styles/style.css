@@ -733,6 +733,22 @@ footer {
 	.product-all-cards {
 		margin-bottom: 2rem;
 	}
+	.products-content > h2 {
+		font-size: var(--font-4xl);
+	}
+	.products-content > p {
+		font-size: var(--font-md);
+	}
+	.products-info > h4 {
+		font-size: var(--font-xl);
+	}
+	.products-price > p,
+	.products-price > span {
+		font-size: var(--font-md);
+	}
+	.products-actions > button {
+		font-size: var(--font-md);
+	}
 	.product-all-cards > .btn-green {
 		max-height: 40px;
 		position: absolute;
