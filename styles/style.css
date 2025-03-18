@@ -754,4 +754,18 @@ footer {
 		position: absolute;
 		bottom: 0;
 	}
+	.visit-us {
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 0 10rem 0 10rem;
+	}
+	.visit-us-content {
+		max-width: 600px;
+	}
+	.visit-us-content > h2 {
+		font-size: var(--font-4xl);
+	}
+	.visit-us-content > p {
+		font-size: var(--font-md);
+	}
 }
